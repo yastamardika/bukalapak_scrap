@@ -1,0 +1,4 @@
+seeder:
+  file: ./seeder/seeder.rb
+  disabled: true
+
