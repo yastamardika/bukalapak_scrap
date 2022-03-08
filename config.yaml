@@ -10,3 +10,12 @@ parsers:
     page_type: products
     disabled: false
 
+exporters:
+  - exporter_name: products_json # Example JSON Exporter
+    exporter_type: json
+    collection: products
+    write_mode: line
+    limit: 100
+    offset: 10
+    start_on_job_done: true # This field will auto start this exporter
+ 
