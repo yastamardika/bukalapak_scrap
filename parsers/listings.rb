@@ -20,7 +20,7 @@ end
 # max_page = html.css('ul.bl-ghostblock-pagination__list li.has-page-active span[aria-current="true"]')
 # p max_page
 page_num = page["vars"]["page_num"]
-url = "https://www.bukalapak.com/c/sepeda/fullbike/roadbike?page#{next_page}"
+url = "https://www.bukalapak.com/c/sepeda/fullbike/roadbike?page#{page_num}"
 page_num += 1
 # p pagination_links
 if page_num <= page["vars"]["max_page"]
